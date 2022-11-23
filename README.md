@@ -2,7 +2,7 @@
 ![1*TFJsgX7UUToFVL00qV9cdA](https://user-images.githubusercontent.com/110424672/203581211-5621e99b-c6b5-4939-9e7a-0064e6b2e6ca.png)
 
 
-Learn how to build an iOS framework, which lets you share code between apps, modularize your code or distribute it as a third-party library.
+Learn how to build an iOS framework, which lets you share code between apps to modularize your code.
 
 ## What is a Framework?
 **Frameworks** are self-contained, reusable chunks of code and resources you can import into many apps. You can even share them across iOS, tvOS, watchOS and macOS apps. When combined with Swift’s access control, frameworks help define strong, testable interfaces between code modules.
