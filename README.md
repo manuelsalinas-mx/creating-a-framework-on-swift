@@ -179,13 +179,15 @@ After that, you will have your framework added on your main app project.
 
 ### Time to test it 
 
-Importing
+**Importing**
+
 <img width="847" alt="Screenshot 2022-11-23 at 10 24 21 AM" src="https://user-images.githubusercontent.com/110424672/203597824-b1f7e5fd-8593-49ff-9095-e01fb9fc7dc8.png">
 
-Running
+**Running**
+
 <img width="1324" alt="Screenshot 2022-11-23 at 10 25 57 AM" src="https://user-images.githubusercontent.com/110424672/203597995-a6ac2491-310b-4d3b-8415-07adeeb5a947.png">
 
-That's it, Enjoy!
+# That's it, Enjoy!
 
 
 
