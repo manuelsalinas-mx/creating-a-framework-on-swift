@@ -41,12 +41,17 @@ public class Logger {
 Time to export our project to `xcframework` file using an old friend... **The Terminal**
 
 Open your terminal and navigate to the framework folder. Alternatively, you could drag your project folder to your terminal after the cd command:
+
 <img width="785" alt="Screenshot 2022-11-23 at 9 58 51 AM" src="https://user-images.githubusercontent.com/110424672/203592312-d67130c1-9604-4d2a-b6a4-ffda122b7d06.png">
 
 Next, start **archiving** your framework for the following targets:
 - iOS
 - Simulator
 - MacOS
+
+
+![1_w4TiFoJsB3gz8C01Qt1OqA](https://user-images.githubusercontent.com/110424672/203831511-aa9c70a0-ca22-4cc7-8992-49cc5a23bf2e.jpg)
+
 
 ### Commands for Terminal 
 <details><summary>Archive for iOS</summary>
