@@ -36,8 +36,21 @@ public class Logger {
 ```
 <img width="1072" alt="Screenshot 2022-11-23 at 9 25 46 AM" src="https://user-images.githubusercontent.com/110424672/203584384-fb6f41b3-0b1d-4a49-a26e-b61a99c5655e.png">
 
-
 ### STEP 4: 
+Set Build Libraries for Distribution to Yes. (IMPORTANT ⭐️)
+
+In tab **Build Settings** of your framework, find Build Libraries for Distribution and set it to **Yes**. 
+This produces a module interface file that shows your public API when someone jumps to the definition of your module in Xcode.
+
+This also helps precompiled framework can be used in multiple swift versions (forward compatibility). 
+(Example: If you build your framework using swift 5.1, and your application uses swift version 5.2, your application can still use your framework).
+
+
+![1*9lVP5IG07N7hyhvccSJp9w](https://user-images.githubusercontent.com/110424672/204054475-8a65daaa-eaf2-48b4-9f34-85e71437a0e0.png)
+
+
+
+### STEP 5: 
 Time to export our project to `xcframework` file using an old friend... **The Terminal**
 
 Open your terminal and navigate to the framework folder. Alternatively, you could drag your project folder to your terminal after the cd command:
